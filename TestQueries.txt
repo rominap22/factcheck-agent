@@ -1,0 +1,41 @@
+1. The Deep-Tech / Algorithmic Test (Triggers: ArXiv & Web)
+This tests the agent's ability to navigate highly technical academic claims and compare benchmarks.
+
+The Argument: "Learning-based image compression models like JPEG AI are mathematically incapable of matching the decoding speed and hardware efficiency of traditional codecs like VVC or HEVC. They are purely academic novelties that offer no real-world advantages for computer vision applications."
+
+What to watch for: The agent should immediately recognize the need for academic data, routing this to the search_arxiv_papers tool to pull recent studies on JPEG AI standardization and computational efficiency.
+
+2. The Historical Fact-Check (Triggers: Wikipedia)
+This tests the agent's ability to pull structured, historical encyclopedic data to debunk absolute statements.
+
+The Argument: "The Ford Mustang has always been exclusively powered by a V8 engine since its original launch in the 1960s. Ford never produced a four-cylinder or inline-six Mustang until the modern EcoBoost era, proving that true muscle cars never deviate from the V8."
+
+What to watch for: A straightforward test for the search_wikipedia tool. The agent should pull the history of the Mustang and easily find that the very first 1964 models offered an inline-six, and the 1980s Fox Body models famously used four-cylinder engines.
+
+3. The Tech Industry & Economics Test (Triggers: Web Search)
+This tests the agent's ability to pull real-time, recent news to fact-check sweeping industry claims.
+
+The Argument: "Despite the massive investments in generative AI, major tech giants like Microsoft and Google completely froze all early-career and new-grad software engineering hiring throughout 2025 and early 2026, proving that AI has already eliminated entry-level developer roles."
+
+What to watch for: The agent should use search_current_web to look up recent tech hiring trends and entry-level software engineering data to provide a nuanced counter-argument based on actual hiring markets.
+
+4. The Fitness / Physiology Myth (Triggers: Web Search & Wikipedia)
+This tests how the agent handles pervasive "bro-science" by cross-referencing sports science consensus.
+
+The Argument: "Doing steady-state cardio completely ruins muscle hypertrophy. If you are on a strict weightlifting routine trying to transform your physique over a year, running or hiking will put your body into a catabolic state and actively destroy the muscle tissue you just built."
+
+What to watch for: The agent should use a combination of tools to pull data on the "interference effect" in concurrent training, ultimately concluding that moderate cardio (like hiking) does not destroy muscle tissue if caloric intake and protein are sufficient.
+
+5. The AI Ethics & Alignment Dilemma (Triggers: Web Search & ArXiv)
+This tests the agent's ability to handle complex, heavily debated philosophical and regulatory topics.
+
+The Argument: "The deployment of autonomous Agentic AI has proven to be flawlessly safe. As of early 2026, there are absolutely zero documented cases or academic concerns regarding agents hallucinating tool calls, taking unauthorized actions in corporate environments, or requiring human-in-the-loop oversight."
+
+What to watch for: The agent should fiercely push back on this absolute claim. It will likely search ArXiv for "Agentic AI safety" or the Web for recent AI ethics reports to cite actual concerns, jailbreak vulnerabilities, and alignment challenges in autonomous systems.
+
+6. The Global Tech & Diplomacy Test (Triggers: Web Search & Wikipedia)
+This tests the agent's ability to fact-check nuanced international relations, specifically regarding AI hardware and semiconductor export controls.
+
+The Argument: "Because of their continued economic ties and oil trade with Russia through the BRICS alliance, the United States has placed India under the exact same strict AI and semiconductor export controls as China. As of 2026, American tech companies are completely legally barred from exporting advanced GPUs or engaging in joint AI research with the Indian tech sector."
+
+What to watch for: A standard, non-agentic LLM often gets confused by the dual realities of geopolitics (e.g., a country being friendly with Russia while simultaneously partnering with the US). Your MCP agent, however, should trigger the search_current_web or search_wikipedia tools to look up "US India tech relations 2026," "US semiconductor export controls," or the "iCET agreement" (initiative on Critical and Emerging Technology). It will use this real-world data to dismantle the claim, proving that the US actually views the region as a major strategic tech partner rather than an embargo target.

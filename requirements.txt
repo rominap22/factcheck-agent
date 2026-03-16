@@ -1,0 +1,9 @@
+fastmcp>=2.0
+wikipedia>=1.4
+ddgs>=9.0
+arxiv>=2.0
+streamlit>=1.30
+langchain-google-genai>=2.0
+langchain-mcp-adapters>=0.1
+langgraph>=0.2
+langchain-core>=0.3
